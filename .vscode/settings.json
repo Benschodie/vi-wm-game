@@ -10,10 +10,5 @@
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 2,
     "editor.cursorBlinking": "solid",
-    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-    // you'll need to change this to an absolute path on your computer
-    "vscode_custom_css.imports": [
-      "/Volumes/Macintosh HD/Benutzer/benjaminkonopka/.vscodestyles.css"
-    ],
     "editor.renderWhitespace": "all",
   }
