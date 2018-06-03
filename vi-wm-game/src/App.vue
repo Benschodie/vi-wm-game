@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- Einbinden des Templates in App -->
+    <Navbar />
+
     <router-view/>
   </div>
 </template>
 
 <script>
+// importieren der componente aus components ordner
+import Navbar from '@/components/Navbar'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    // "normal"
+    // Navbar: Navbar
+    // wenn key und value innerhalb des objekts gleich sind dann es 6 variante
+    Navbar
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
